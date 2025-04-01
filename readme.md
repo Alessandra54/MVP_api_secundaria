@@ -47,59 +47,6 @@ A API estará disponível em `http://localhost:5001`
 
 ---
 
-## Endpoints Disponíveis
-
-### 1. Adicionar Receita Favorita
-**POST** `/api/favoritas`
-```json
-{
-  "titulo": "Pizza Margherita",
-  "ingredientes": "Massa, Molho de tomate, Queijo mussarela, Manjericão"
-}
-```
-**Resposta:**
-```json
-{
-  "message": "Receita adicionada com sucesso!"
-}
-```
-
-### 2. Listar Receitas Favoritas
-**GET** `/api/favoritas`
-**Resposta:**
-```json
-[
-  {
-    "id": 1,
-    "titulo": "Pizza Margherita",
-    "ingredientes": "Massa, Molho de tomate, Queijo mussarela, Manjericão"
-  }
-]
-```
-
-### 3. Buscar Receita Favorita por ID
-**GET** `/api/favoritas/{id}`
-**Resposta:**
-```json
-{
-  "id": 1,
-  "titulo": "Pizza Margherita",
-  "ingredientes": "Massa, Molho de tomate, Queijo mussarela, Manjericão"
-}
-```
-
-### 4. Remover Receita Favorita
-**DELETE** `/api/favoritas/{id}`
-**Resposta:**
-```json
-{
-  "message": "Receita removida com sucesso!"
-}
-```
-
----
-
-
 ## 📌 Endpoints Disponíveis
 
 ### 🥗 Favoritas
